@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" href="Images/amitlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/83c0e88501.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/amitlogo.png" width="114px"  class="logo">
+
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Android App Developer & Interior and Exterior Designer</p>
+                <h1>Hi, I'm <span>Amit Kumar </span><br> From West Champaran</h1>
+            </div>
+        </div>
+    </div>
+ <!-- --------------------About-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/mypicres.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Civil Engineering Student Currently Studying in 7th Semester At Government Engineering College West Champaran
+                        I am passionate in App Development. I am a fast learner who always study to learn something new to keep me updated
+                        Also I am good at Civil Engineering Software Such As Autocad, Sketchup,Enscape,Vray.
+                        As a hobby I do Video Editing on Adobe Pr Pro.
+                        I am a sports person I play badminton and football in my offtime.
+                        At morning I do yoga and meditation.
+                        I love pets such as Dogs and Rabbit.</p>
+
+                        <div class="tab-titles">
+                            <p class="tabs-links active-link" onclick="opentab('skills',event)">Skills</p>
+                            <p class="tabs-links"  onclick="opentab('experience',event)">Experience</p>
+                            <p class="tabs-links"  onclick="opentab('education',event)">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>App Development</span> <br>Building Android Apps</li>
+                                <li><span>Autocad</span> <br>Making 2d House plan</li>
+                                <li><span>Sketchup</span> <br>Making 3d Interior and Exterior  </li>
+                                <li><span>Enscape </span> <br>For Realtime Rendering 3d Interior and Exterior  </li>
+                                <li><span>Adobe Pr Pro</span> <br> Eye catching Video Editing </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Government Engineering West Champaran</span> <br>Building Apps using webView for my college</li>
+                                <li><span>Government Engineering West Champaran</span> <br>Made Todo App for my college</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-24</span> <br>Civil Engineering From Government Engineering College West Champaran</li>
+                                <li><span>2018-20</span> <br>Intermediate From R.B college Dukkhichapar</li>
+                                <li><span>2014-18</span> <br>High School From U.p Sainik School Lucknow</li>
+                               
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------Services-------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Android App Development</h2>
+                    <p>
+                        I generally make Android app using Kotlin and Xml i use firebase for backend development.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphics Design</h2>
+                    <p>
+                        For graphic design i use Canva to make beautiful and attractive design.
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>2d Plan / 3d Interior and Exterior</h2>
+                    <p>
+                       For making 2d plan I used Autocad and for 3d i used Sketchup and for real time rendering I used Enscape and vay.
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/da.jpg" >
+                    <div class="layer">
+                        <h3>House Front view</h3>
+                        <p>Using Sketchup</p>
+                        <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ho3.jpg"  height="245px" width="450px">
+                    <div class="layer">
+                        <h3>House FrontView</h3>
+                        <p>Using Sketchup </p>
+                        <!-- <a href="#"></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/h3.jpg"  height="245px"  width="450px">
+                    <div class="layer">
+                        <h3>Interior office</h3>
+                        <p>using Skeytchup </p>
+                        <!-- <a href="#"></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="/appdev.html" class="btn" target="_blank">See more</a>
+
+        </div>
+            
+    </div>
+
+
+    <!-- __________CONTACT_____________ -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>amit.wc.india@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8887487233</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/w20427"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/channel/UCMO115C3mN_95317uYVshLA"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/amit.kr.yadav.27/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amit-kumar-4a9a9b1b3/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/Images/Amitupdatedresume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+             </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Copyright by Amit</p>
+        </div>
+    </div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tabs-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event) {
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+
+
+ var sidemenu = document.getElementById("sidemenu");
+   
+ function openmenu(){
+    sidemenu.style.right = "0";
+
+}
+ function closemenu(){
+    sidemenu.style.right = "-200px";
+
+}
+
+
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNryUUL8SxiqKLQYny_r_T5eHrF3n1eajfmAbExIx-QUtLYhaxhblpAYToEXovC7kV/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
